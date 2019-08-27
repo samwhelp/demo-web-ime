@@ -26,7 +26,7 @@
 	};
 
 	function load() {
-		var url = '/asset/data/zhuyin-map-word.json';
+		var url = '../../asset/data/zhuyin-map-word.json';
 		var data = [];
 		//https://api.jquery.com/jQuery.getJSON/
 		//https://api.jquery.com/jQuery.ajax/
