@@ -27,13 +27,13 @@
 
 	function load() {
 		var url = '../../asset/data/zhuyin-map-word.json';
-		var data = [];
+		var args = {};
 		//https://api.jquery.com/jQuery.getJSON/
 		//https://api.jquery.com/jQuery.ajax/
 		$.ajax({
 			dataType: 'json',
 			url: url,
-			data: data,
+			data: args,
 			/*
 			success: function() {
 				console.log(1);
